@@ -179,7 +179,7 @@ static int scanfilter(const struct dirent *entry)
 // __strverscmp comes from glibc/string/strvercmp.c
 
 /* states: S_N: normal, S_I: comparing integral part, S_F: comparing
-           fractionnal parts, S_Z: idem but with leading Zeroes only */
+           fractional parts, S_Z: idem but with leading Zeroes only */
 #define  S_N    0x0
 #define  S_I    0x3
 #define  S_F    0x6
